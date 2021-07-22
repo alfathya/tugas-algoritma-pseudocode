@@ -1,0 +1,132 @@
+body{
+    display:flex;
+    flex-direction: row;
+}
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.godfather {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.godfather .bapakhs {
+    display: flex;
+    height: 780px;
+    width: 100%;
+}
+
+header{
+    /* background-color: #333; */
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .profil .profil_saya{
+    font-size: 40px;
+    margin:0%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+header .profil .status{
+    font-size: 25px;
+    color: #FFC300;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+
+header .profil .image {
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 100px;
+    border: 10px solid #2C3E50
+}
+
+section {
+    /* background-color: crimson; */
+    min-height: 100vh;
+    padding: 16px;
+}
+
+.tentang .about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+.tentang .about .info_about{
+    flex:1 1 48px;
+    padding:20px 16px;
+    padding-left: 30px;
+}
+.tentang .about .info_about .kenalan{
+    font-size: 40px;
+    color: #34495E;
+    margin-top: 200px;
+
+}
+.info_about p{
+    margin-left: 40px;
+    font-size: 18px;
+    color: #717D7E;
+}
+.hobi .hobiku{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items:center;
+    text-align: center;
+}
+.hobi .hobiku p{
+    background-color: salmon;
+    border-radius: 50%;
+    color: #fff;
+    height: 125px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.kontak .kenalan{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kontak .listcont{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 350px;
+}
+
+.kontak .listcont .icon{
+    display: flex;
+    justify-content: center;
+}
+
+.aicon{
+    width: 100px;
+    height: 100px;
+}
